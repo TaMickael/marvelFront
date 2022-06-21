@@ -1,0 +1,48 @@
+.containerComics {
+  width: 70%;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    input {
+      width: 700px;
+      height: 30px;
+      margin: 40px 40px;
+      font-size: x-large;
+      color: grey;
+    }
+  }
+
+  .pictureComics {
+    width: 300px;
+    height: 750px;
+    margin: 15px 15px;
+
+    img {
+      height: 80%;
+      width: 100%;
+    }
+  }
+
+  .titleComics {
+    font-size: 13px;
+    width: 100%;
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+}
